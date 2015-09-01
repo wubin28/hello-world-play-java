@@ -9,4 +9,8 @@ public class Application extends Controller {
         return ok("Hello, world!");
     }
 
+    public Result hello(String name) {
+        return ok("Hello, " + name + "!");
+    }
+
 }
