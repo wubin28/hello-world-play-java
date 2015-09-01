@@ -10,7 +10,7 @@ public class Application extends Controller {
     }
 
     public Result hello(String name) {
-        return ok("Hello, " + name + "!");
+        return ok(views.html.hello.render(name));
     }
 
 }
